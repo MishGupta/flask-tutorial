@@ -27,7 +27,7 @@
 - [URL Variables](#url-variables)
 - [Redirection](#redirection)
 - [Message Flashing](#message-flashing)
-- [How to Run][#how-to-run]
+- [How to Run](#how-to-run)
 
 
 <hr>
