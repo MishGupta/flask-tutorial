@@ -27,6 +27,7 @@
 - [URL Variables](#url-variables)
 - [Redirection](#redirection)
 - [Message Flashing](#message-flashing)
+- [How to Run][#how-to-run]
 
 
 <hr>
@@ -343,6 +344,44 @@ if __name__=="__main__":
     app.run(debug=True)
     
 ```
+## How to Run the Project
+
+```bash
+git clone https://github.com/sid86-dev/flask-tutorial.git
+cd flask-tutorial
+pip install flask
+python app.py
+Then open:
+http://127.0.0.1:5000/
+
+👉 Maintainers LOVE this kind of contribution
+
+---
+
+## ✅ 4. Fix grammar & clarity
+
+Examples:
+
+From README :contentReference[oaicite:1]{index=1}:
+
+> “Its Modern and very expressive”
+
+👉 Fix to:
+- “It is modern and very expressive”
+
+---
+
+## ✅ 5. Add Project Structure (VERY GOOD PR)
+
+Add:
+
+```markdown
+## 📁 Project Structure
+
+flask-tutorial/
+│── app.py
+│── templates/
+│── static/
 
 
 > Good applications and user interfaces are all about feedback. If the user does not get enough feedback they will probably end up hating the application. Flask provides a really simple way to give feedback to a user with the flashing system. The flashing system basically makes it possible to record a message at the end of a request and access it next request and only next request. This is usually combined with a layout template that does this. Note that browsers and sometimes web servers enforce a limit on cookie sizes. This means that flashing messages that are too large for session cookies causes message flashing to fail silently.
