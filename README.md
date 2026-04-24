@@ -146,7 +146,7 @@ if __name__=="__main__":
 
 ```
 
-> Modern web applications use meaningful URLs to help users. Users are more likely to like a page and come back if the page uses a meaningful URL they can remember and use to   directly visit a page.
+> Modern web applications use meaningful URLs to help users. Users are more likely to like a page and come back if the page uses a meaningful URL they can remember and use to directly visit a page.
 
 > Use the `route()` decorator to bind a function to a URL.
 
@@ -353,35 +353,5 @@ pip install flask
 python app.py
 Then open:
 http://127.0.0.1:5000/
-
-👉 Maintainers LOVE this kind of contribution
-
----
-
-## ✅ 4. Fix grammar & clarity
-
-Examples:
-
-From README :contentReference[oaicite:1]{index=1}:
-
-> “Its Modern and very expressive”
-
-👉 Fix to:
-- “It is modern and very expressive”
-
----
-
-## ✅ 5. Add Project Structure (VERY GOOD PR)
-
-Add:
-
-```markdown
-## 📁 Project Structure
-
-flask-tutorial/
-│── app.py
-│── templates/
-│── static/
-
 
 > Good applications and user interfaces are all about feedback. If the user does not get enough feedback they will probably end up hating the application. Flask provides a really simple way to give feedback to a user with the flashing system. The flashing system basically makes it possible to record a message at the end of a request and access it next request and only next request. This is usually combined with a layout template that does this. Note that browsers and sometimes web servers enforce a limit on cookie sizes. This means that flashing messages that are too large for session cookies causes message flashing to fail silently.
