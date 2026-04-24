@@ -16,7 +16,7 @@
 
 <hr>
 
-## Table of Content
+## Table of Contents
 
 
 - [Installation](#installation)
